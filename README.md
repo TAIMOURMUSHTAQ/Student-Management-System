@@ -45,10 +45,8 @@ GUI version using Java Swing
 Use ArrayList or Database for dynamic data handling
 
 🙋‍♂️ **Author**
-Taimour Mushtaq Khan
+Taimour Mushtaq
 🎓 BSCS Student at Federal Urdu University of Arts,Science and Technology, Islamabad Pakistan
 🔗 https://www.linkedin.com/in/taimourmushtaq/ |https://github.com/TAIMOURMUSHTAQ
 
-📄 License
-This project is open-source and available under the MIT License.
                     
