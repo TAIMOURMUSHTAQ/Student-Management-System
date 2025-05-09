@@ -55,45 +55,6 @@ class Student{
         }
     }
 
-    //void AddStudent(){
-//        System.out.println("Enter Student's Data");
-//        System.out.println("How many Student's data do you want to add more?");
-//        Scanner sc=new Scanner(System.in);
-//        n=sc.nextInt();
-//        int oldLength= StudentName.length;
-//        int newLength=oldLength+n;
-//        studentCount+=n;
-//        StudentName=new String[n];
-//        System.out.println("Enter names of Students");
-//        for (int i=0;i<n;i++){
-//            StudentName[i]=sc.next();
-//        }
-//        RollNo=new int[n];
-//        System.out.println("Enter Roll no of Students");
-//        for (int i=0;i<n;i++) {
-//            RollNo[i] = sc.nextInt();
-//        }
-//        Class=new String[n];
-//        System.out.println("Enter Class of Students");
-//        for (int i=0;i<n;i++) {
-//            Class[i] = sc.next();
-//        }
-//            Section=new String[n];
-//        System.out.println("Enter Section of Students");
-//        for (int i=0;i<n;i++) {
-//            Section[i] = sc.next();
-//        }
-//
-//        System.out.println("You have entered following Student's Data:");
-//        System.out.printf("%-20s %-20s %-20s %-20s\n", "Student Name", "Roll No", "Class", "Section");
-//        // System.out.printf("%-20s %-20d %-20s %-20s\n","Student Name, Roll No, Class, Section");
-//            for (int i = 0; i < newLength; i++) {
-//                //You entered
-//                // Student name:  ali	Student Roll No: 1	Student Class: one	Student Section: a
-//                System.out.printf("%-20s %-20d %-20s %-20s\n", StudentName[newLength], RollNo[newLength], Class[newLength], Section[newLength]);
-//            }
-//
-//    }
     void ViewStudent(){
         System.out.printf("%-20s %-20s %-20s %-20s\n", "Student Name", "Roll No", "Class", "Section");
         for (int i = 0; i<studentCount; i++) {
@@ -110,7 +71,6 @@ class Student{
                 System.out.printf("%-20s %-20d %-20s %-20s\n", StudentName[i], RollNo[i], Class[i], Section[i]);
             }
         }
-//        System.out.printf("%-20s %-20d %-20s %-20s\n", "Ahmed", 123, "2nd", "A");
     }
     void SearchStudent(){
         System.out.println("\t\t\tSearch Student");
@@ -119,9 +79,6 @@ class Student{
         System.out.println("\t\t\tUpdate Student");
         System.out.println("Enter student name who's data you want to update...");
         String sname[];
-
-
-
     }
     void DeleteStudent(){
         System.out.println("\t\t\tDelete Student");
